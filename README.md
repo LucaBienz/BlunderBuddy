@@ -1,4 +1,4 @@
-# ♟️ Chess Tactics Trainer
+# ♟️ BlunderBuddy
 
 A free, self-hostable chess tactics trainer that lets you practice puzzles, track progress, and understand *why* a move is wrong - powered by Stockfish. Inspired by the limitations of existing puzzle platforms, this app helps you *learn from your mistakes*.
 
