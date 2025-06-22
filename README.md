@@ -1,4 +1,4 @@
-# ♟️ Chess Tactics Trainer
+# ♟️ BlunderBuddy
 
 A free, self-hostable chess tactics trainer that lets you practice puzzles, track progress, and understand *why* a move is wrong - powered by Stockfish. Inspired by the limitations of existing puzzle platforms, this app helps you *learn from your mistakes*.
 
@@ -32,8 +32,8 @@ A free, self-hostable chess tactics trainer that lets you practice puzzles, trac
 ### ⚙️ Backend Setup
 
 ```bash
-git clone https://github.com/yourusername/chess-tactics-trainer.git
-cd chess-tactics-trainer/backend
+git clone https://github.com/yourusername/BlunderBuddy.git
+cd BlunderBuddy/backend
 
 python3 -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
