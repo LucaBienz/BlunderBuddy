@@ -57,7 +57,7 @@ export default function App() {
       {/* Content */}
       <div className="flex flex-col items-center">
 
-        <div className="bg-white dark:bg-[#1e1e1e] p-6 rounded-xl shadow-[0_8px_24px_rgba(0,0,0,0.15)] inline-block transition-colors duration-300">
+        <div className="bg-white dark:bg-[#302e2b] p-2 rounded-xl shadow-[0_8px_24px_rgba(0,0,0,0.15)] inline-block transition-colors duration-300">
           <ChessPuzzleBoard darkMode={isDarkMode} setMessage={setMessage} />
           {message && (
             <p className="mt-4 text-gray-800 dark:text-gray-200 text-sm">
