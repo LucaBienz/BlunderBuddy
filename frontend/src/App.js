@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ChessPuzzleBoard from "./components/ChessPuzzleBoard";
 import { FaCog } from "react-icons/fa"; // Gear icon
+import Sidebar from "./components/Sidebar";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -24,6 +25,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white dark:bg-[#121212] text-black dark:text-[#f0f0f0] transition-colors duration-300 relative">
+      <Sidebar />
       {/* Settings Icon */}
       <div className="absolute top-4 right-4">
         <button
@@ -54,12 +56,7 @@ export default function App() {
 
       {/* Content */}
       <div className="flex flex-col items-center">
-        <h1 className="text-2xl font-bold text-[#8855ff] dark:text-[#bb86fc] mb-1">
-          BlunderBuddy
-        </h1>
-        <p className="text-sm mb-6">
-          Practice tactics and learn from your mistakes.
-        </p>
+
         <div className="bg-white dark:bg-[#1e1e1e] p-6 rounded-xl shadow-[0_8px_24px_rgba(0,0,0,0.15)] inline-block transition-colors duration-300">
           <ChessPuzzleBoard darkMode={isDarkMode} setMessage={setMessage} />
           {message && (
